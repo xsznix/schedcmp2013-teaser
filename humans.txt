@@ -1,0 +1,25 @@
+http://humanstxt.org
+
+/* TEAM */
+
+	Developer/Designer: Xuming Zeng
+	Website: http://xsznix.github.io/
+	Location: Austin, Texas
+	
+	Developer/Designer: Tristan Seifert
+	Website: http://squee.co/
+	Location: Austin, Texas
+
+/* SITE */
+
+	Language: English (US)
+	Browser support: Chrome, Firefox, Safari
+	IDE: TextMate 2, Notepad++
+	
+	Components:
+	
+		Classroom picture: Wikimedia Commons
+		http://commons.wikimedia.org/wiki/File:Andrew_Classroom_De_La_Salle_University.jpeg
+		
+		Placeholder images
+		http://placehold.it/

@@ -1,0 +1,84 @@
+#intro {
+	margin: 0;
+	padding: 96px 0;
+	background: url('img/classroom_filler.jpeg') no-repeat center bottom;
+	background-size: cover;
+}
+
+#intro_tag, #intro_desc {
+	text-shadow: 0px 1px 0px #000;
+}
+
+#intro_tag {
+	font-size: 48px;
+}
+
+#intro_desc {
+	color: #ddd;
+	font-size: 28px;
+	max-width: none;
+}
+
+#actionbox {
+	text-align: center;
+}
+
+#devs {
+	text-align: center;
+}
+
+#devs .dev {
+	display: inline-block;
+	width: 140px;
+	margin: 16px 24px;
+}
+
+.dev_img {
+	border-radius: 60px;
+}
+
+.dev_name {
+	margin-bottom: 2px;
+	font-family: 'Raleway';
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.dev_grade {
+	margin-top: 2px;
+	color: #888;
+}
+
+#sign_up_box {
+	height: 32px;
+	background: none;
+	color: #fff;
+	border: 2px solid #fff;
+	font-size: 18px;
+}
+
+#notify_me {
+	padding: 4px 6px;
+	height: 38px;
+	background: none;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+#notify_me:hover {
+	background: #ffbf73;
+}
+
+@media screen and (max-width: 950px) {
+	#intro_tag {
+		font-size: 36px;
+	}
+	
+	#intro_desc {
+		font-size: 18px;
+	}
+}

@@ -1,0 +1,291 @@
+/* http://colorschemedesigner.com/#3t21TQI--w0w0 */
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
+
+body {
+	margin: 0;
+	background: #eee;
+}
+
+h1, h2, h3, h4, h5, h6, th {
+	font-family: 'Raleway';
+	font-weight: 300;
+}
+
+p, th, td, li, dd, dt {
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+}
+
+a {
+	color: #016ca6;
+}
+
+a:active {
+	color: #328ebf;
+}
+
+img.left { display: block; float: left; margin: 0 48px; }
+img.right { display: block; float: right; margin: 0 48px; }
+img.center { display: block; margin: 0 auto 24px auto; }
+
+.clearafter:before, .clearafter:after {
+	content: "";
+	display: table;
+}
+
+.clearafter:after {
+	clear: both;
+}
+
+input[type=text], input[type=email] {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	padding-left: 6px;
+}
+
+.light::-webkit-input-placeholder {
+    color:    #ddd;
+}
+.light:-moz-placeholder {
+    color:    #ddd;
+}
+.light::-moz-placeholder {
+    color:    #ddd;
+}
+.light:-ms-input-placeholder {
+    color:    #ddd;
+}
+
+#container {
+	clear: both;
+}
+
+#header {
+	background: #fff;
+	height: 48px;
+	overflow: hidden;
+}
+
+.logo {
+	float: left;
+}
+
+#h_logo {
+	width: 48px;
+	height: 48px;
+}
+
+#h_name {
+	float: left;
+	margin-left: 16px;
+	margin-top: 12px;
+	color: #666;
+	font-family: 'Raleway';
+	font-weight: 300;
+	font-size: 22px;
+}
+
+#navbar {
+	float: right;
+}
+
+#navbar a, #footer_nav a {
+	display: inline-block;
+	padding: 16px 8px 13px 8px;
+	color: #666;
+	font-family: 'Raleway';
+	font-weight: 300;
+	text-decoration: none;
+}
+
+#navbar a:hover {
+	background: #f8f8f8;
+	text-decoration: underline;
+}
+
+#navbar .accent {
+	background: #ffa840;
+	color: #fff;
+}
+
+#navbar .accent:hover {
+	background: #ff8b00;
+}
+
+h2 {
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #666;
+}
+
+/* layer classes */
+
+.layer {
+	margin: 0;
+	padding: 64px 0;
+}
+
+.layer.nopad {
+	padding: 12px 0;
+}
+
+.title {
+	margin-bottom: 12px;
+}
+
+.subtitle {
+	max-width: 500px;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.layer.dark {
+	background: #444;
+	color: #fff;
+}
+
+.layer.dark .title {
+	color: #fff;
+}
+
+.layer.dark .subtitle {
+	color: #aaa;
+}
+
+.layer.light {
+	background: #e8e8e8;
+}
+
+.layer.light .title, .layer.light .subtitle {
+	color: #444;
+}
+
+.layer.lighter {
+	background: #f8f8f8;
+}
+
+.layer.lighter .title, .layer.lighter .subtitle {
+	color: #444;
+}
+
+.layer.accent {
+	background: #04a7ff;
+}
+
+.layer.accent .title {
+	color: #fff;
+}
+
+.layer.accent .subtitle {
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+}
+
+.layer.accent2 {
+	background: #ff8b00;
+}
+
+.layer.accent2 .title {
+	color: #fff;
+}
+
+.layer.accent2 .subtitle {
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+}
+
+.layer.right * {
+	text-align: right;
+	margin-left: auto;
+}
+
+.layer.center * {
+	text-align: center;
+}
+
+.layer.center .subtitle {
+	max-width: none;
+}
+
+.layer.large .title {
+	font-size: 26px;
+}
+
+.layer.large .subtitle {
+	font-size: 20px;
+}
+
+.layer.twocol .col {
+	width: 50%;
+	float: left;
+}
+
+.layer.twocol .col * {
+	text-align: center;
+}
+
+.layer.twocol .subtitle {
+	padding: 0 12px;
+}
+
+.layer_inner {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 0 48px;
+}
+
+.action {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 24px;
+	text-align: center;
+}
+
+#footer {
+	padding: 0;
+	overflow: hidden;
+}
+
+#footer_nav {
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#footer_nav a {
+	color: #bbb;
+	margin-bottom: 0;
+}
+
+#footer_nav a:hover {
+	background: #555;
+}
+
+@media screen and (max-width: 720px) {
+	#header {
+		height: 96px;
+	}
+	#navbar {
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	img.left, img.right { float: none; margin: 0 auto 24px auto; }
+	
+	.layer *, .layer.right *, .layer.center * {
+		text-align: center;
+	}
+	
+	.layer.twocol .col {
+		float: none;
+		width: auto;
+	}
+	
+	.layer.twocol .col + .col {
+		margin-top: 32px;
+	}
+	
+	.layer.twocol img { display: none; }
+}
