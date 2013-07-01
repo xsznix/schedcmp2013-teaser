@@ -99,9 +99,11 @@
 	#intro_tag {
 		font-size: 36px;
 	}
-	
-	#intro_desc {
+	#intro_action, #intro_desc {
 		font-size: 18px;
+	}
+	#intro_action {
+		padding: 8px 16px;
 	}
 }
 
