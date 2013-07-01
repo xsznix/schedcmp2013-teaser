@@ -1,7 +1,7 @@
 #intro {
 	margin: 0;
 	padding: 96px 0;
-	background: url('img/classroom_filler.jpeg') no-repeat center bottom;
+	background: url('../img/classroom_filler.jpeg') no-repeat center bottom;
 	background-size: cover;
 }
 
@@ -11,6 +11,28 @@
 
 #intro_tag {
 	font-size: 48px;
+	margin-bottom: 0;
+}
+
+#intro_action {
+	display: inline-block;
+	margin-left: 36px;
+	padding: 14px 22px;
+	
+	background: #ff8b00;
+	color: #fff;
+	
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-size: 28px;
+	text-shadow: none;
+	text-decoration: none;
+	
+	cursor: pointer;
+}
+
+#intro_action:hover {
+	background: #ffa840;
 }
 
 #intro_desc {
