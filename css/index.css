@@ -46,6 +46,9 @@
 }
 
 #devs {
+	max-width: 575px;
+	margin: 0 auto;
+	
 	text-align: center;
 }
 
@@ -56,6 +59,8 @@
 }
 
 .dev_img {
+	width: 120px;
+	height: 120px;
 	border-radius: 60px;
 }
 
