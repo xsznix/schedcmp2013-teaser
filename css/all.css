@@ -3,6 +3,8 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,700);
 @import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
+/* resets */
+
 body {
 	margin: 0;
 	background: #eee;
@@ -58,9 +60,13 @@ input[type=text], input[type=email] {
     color:    #ddd;
 }
 
+/* base elements */
+
 #container {
 	clear: both;
 }
+
+/* header elements */
 
 #header {
 	background: #fff;
@@ -86,6 +92,13 @@ input[type=text], input[type=email] {
 	font-weight: 300;
 	font-size: 22px;
 }
+
+#h_name a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/* top navigation */
 
 #navbar {
 	float: right;
@@ -209,12 +222,31 @@ h2 {
 	max-width: none;
 }
 
+.layer.wall_of_text * {
+	text-align: justify;
+}
+
+.layer.wall_of_text h2 {
+	text-align: center;
+}
+
+.layer.wall_of_text p {
+	max-width: 720px;
+	margin: 20px auto;
+	font-size: 20px;
+	line-height: 26px;
+}
+
 .layer.large .title {
 	font-size: 26px;
 }
 
 .layer.large .subtitle {
 	font-size: 20px;
+}
+
+.layer.huge .title {
+	font-size: 36px;
 }
 
 .layer.twocol .col {
@@ -236,12 +268,42 @@ h2 {
 	padding: 0 48px;
 }
 
+/* emphasis */
+
 .action {
 	margin-top: 10px;
 	color: #fff;
 	font-size: 24px;
 	text-align: center;
 }
+
+/* sign up action */
+
+#actionbox {
+	text-align: center;
+}
+
+#sign_up_box {
+	height: 32px;
+	background: none;
+	color: #fff;
+	border: 2px solid #fff;
+	font-size: 18px;
+}
+
+#notify_me {
+	padding: 4px 6px;
+	height: 38px;
+	background: none;
+	color: #fff;
+	border: 2px solid #fff;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+/* footer and bottom navigation */
 
 #footer {
 	padding: 0;
@@ -261,6 +323,8 @@ h2 {
 #footer_nav a:hover {
 	background: #555;
 }
+
+/* responsiveness */
 
 @media screen and (max-width: 720px) {
 	#header {

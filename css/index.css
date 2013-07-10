@@ -41,10 +41,6 @@
 	max-width: none;
 }
 
-#actionbox {
-	text-align: center;
-}
-
 #devs {
 	max-width: 575px;
 	margin: 0 auto;
@@ -74,26 +70,6 @@
 .dev_grade {
 	margin-top: 2px;
 	color: #888;
-}
-
-#sign_up_box {
-	height: 32px;
-	background: none;
-	color: #fff;
-	border: 2px solid #fff;
-	font-size: 18px;
-}
-
-#notify_me {
-	padding: 4px 6px;
-	height: 38px;
-	background: none;
-	color: #fff;
-	border: 2px solid #fff;
-	font-family: 'Open Sans';
-	font-weight: 300;
-	font-size: 18px;
-	cursor: pointer;
 }
 
 #notify_me:hover {
