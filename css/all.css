@@ -106,12 +106,12 @@ input[type=text], input[type=email] {
 }
 
 #navbar .accent {
-	background: #ffa840;
+	background: #ff8b00;
 	color: #fff;
 }
 
 #navbar .accent:hover {
-	background: #ff8b00;
+	background: #ffa840;
 }
 
 h2 {
