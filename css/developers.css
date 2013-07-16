@@ -1,0 +1,13 @@
+.dev_img {
+	display: block !important;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto 12px auto;
+	text-align: center;
+	border-radius: 60px;
+}
+
+.dev_name {
+	font-size: 22px;
+	margin-bottom: -12px;
+}
