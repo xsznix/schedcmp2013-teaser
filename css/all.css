@@ -354,6 +354,4 @@ h2 {
 	.layer.twocol .col + .col {
 		margin-top: 32px;
 	}
-	
-	.layer.twocol img { display: none; }
 }
