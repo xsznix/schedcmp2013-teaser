@@ -268,6 +268,10 @@ h2 {
 	padding: 0 48px;
 }
 
+.layer.thin .layer_inner {
+	max-width: 800px;
+}
+
 /* emphasis */
 
 .action {
