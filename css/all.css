@@ -315,28 +315,24 @@ h2 {
 
 /* sign up action */
 
-#actionbox {
-	text-align: center;
-}
-
-#sign_up_box {
-	height: 32px;
-	background: none;
-	color: #fff;
-	border: 2px solid #fff;
-	font-size: 18px;
-}
-
-#notify_me {
+#sign_up_button {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
 	padding: 4px 6px;
-	height: 38px;
 	background: none;
 	color: #fff;
 	border: 2px solid #fff;
 	font-family: 'Open Sans';
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 22px;
+	text-align: center;
+	text-decoration: none;
 	cursor: pointer;
+}
+
+#sign_up_button:hover {
+	background: #ffa840;
 }
 
 /* social plugins */
