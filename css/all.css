@@ -60,6 +60,37 @@ input[type=text], input[type=email] {
     color:    #ddd;
 }
 
+/* button styling */
+
+.button {
+	display: inline-block;
+	padding: 6px 12px;
+
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	font-weight: 300;
+
+	cursor: pointer;
+}
+
+.button.accent {
+	background: #04a7ff;
+	color: #fff;
+}
+
+.button.accent:hover {
+	background: #438dff;
+}
+
+.button.accent2 {
+	background: #ff8b00;
+	color: #fff;
+}
+
+.button.accent2:hover {
+	background: #ffa840;
+}
+
 /* base elements */
 
 #container {
@@ -318,6 +349,43 @@ h2 {
 .social_reminder {
 	color: #eee;
 	font-size: 18px;
+}
+
+.social_circle_wrapper {
+	position: relative;
+	display: block;
+	margin: 0 auto 16px auto;
+	width: 128px;
+	height: 128px;
+}
+
+img.social_circle {
+	width: 128px;
+	height: 128px;
+}
+
+img.social_circle.inactive {
+	opacity: 0.6;
+}
+
+img.social_circle.active {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 128px;
+	height: 128px;
+	opacity: 0;
+
+	-webkit-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+.col:hover > .social_circle_wrapper > img.social_circle.active {
+	opacity: 1;
 }
 
 /* footer and bottom navigation */

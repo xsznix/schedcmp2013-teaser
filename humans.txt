@@ -28,3 +28,6 @@ http://humanstxt.org
 
 		retina.js
 		http://retinajs.com/
+
+		Free Social Icons
+		http://www.iconfinder.com/iconsets/free-social-icons
