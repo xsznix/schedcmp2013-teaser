@@ -1,0 +1,45 @@
+/* user header */
+
+#user_header .title {
+	font-size: 48px;
+}
+
+#user_header .title span {
+	font-family: 'Raleway';
+}
+
+#user_header .subtitle {
+	font-size: 28px;
+	max-width: none;
+	margin-top: 4px;
+	margin-bottom: 12px;
+}
+
+.fname, .gradyear_sig {
+	font-weight: 700;
+}
+
+#avatar {
+	margin-bottom: 24px;
+}
+
+.ext_link {
+	color: #fff;
+
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-size: 20px;
+}
+
+#courselist li {
+	margin-bottom: 8px;
+}
+
+.courselink, .coursenum {
+	font-family: 'Raleway';
+	font-size: 22px;
+}
+
+.coursenum {
+	color: #aaa;
+}
