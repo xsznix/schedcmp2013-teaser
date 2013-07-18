@@ -1,0 +1,22 @@
+.choices_row label {
+	display: inline-block;
+	margin: 8px;
+
+	font-size: 36px;
+	font-weight: 700;
+
+	cursor: pointer;
+}
+
+.choices_row img {
+	height: 120px;
+}
+
+.choices_row label:hover {
+	outline: 4px solid #75cfff;
+}
+
+.choices_row input:checked + label {
+	outline: 4px solid #328ebf;
+	opacity: 1;
+}

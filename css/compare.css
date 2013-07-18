@@ -1,0 +1,81 @@
+#viewswitcher, #viewswitcher .layer_inner {
+	height: 36px;
+	padding: 0;
+}
+
+#viewswitcher span {
+	padding: 8px 12px;
+	font-weight: 700;
+}
+
+#viewswitcher label {
+	display: inline-block;
+	height: 20px;
+	padding: 8px 12px;
+	cursor: pointer;
+}
+
+#viewswitcher input:checked + label {
+	background: #666;
+}
+
+#viewswitcher label:hover {
+	background: #555;
+}
+
+.fname {
+	font-weight: 700;
+}
+
+/* list view: normal */
+
+body.normal .classmate {
+	display: inline-block;
+	width: 200px;
+	padding: 12px;
+	text-align: left !important;
+	overflow: hidden;
+}
+
+body.normal .classmate img {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+}
+
+body.normal .classmate span {
+	display: inline-block;
+	font-size: 18px;
+	padding-top: 11px;
+}
+
+/* list view: icons */
+
+body.icons .classmate {
+	display: inline-block;
+}
+
+body.icons .classmate img {
+	display: inline-block;
+	width: 48px;
+	height: 48px;
+	margin: 16px;
+}
+
+body.icons .classmate span {
+	display: none;
+}
+
+/* list view: compact */
+
+body.compact .classmate {
+	display: inline-block;
+	width: 150px;
+	margin-bottom: 6px;
+	overflow: hidden;
+}
+
+body.compact .classmate img {
+	display: none;
+}

@@ -1,0 +1,74 @@
+#search {
+	position: relative;
+	top: -1px;
+	height: 26px;
+	font-size: 16px;
+	border: 2px solid #bbb;
+}
+
+#submit_search {
+	height: 32px;
+	padding: 0 6px;
+	border: none;
+
+	color: #fff;
+
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-size: 20px;
+
+	cursor: pointer;
+}
+
+.results {
+	list-style-position: inside;
+}
+
+.result {
+	position: relative;
+	display: block;
+	width: 300px;
+	margin: 8px auto;
+	clear: both;
+
+	text-align: left;
+}
+
+.result.user img {
+	float: left;
+}
+
+.result.user a {
+	display: block;
+	font-size: 22px;
+}
+
+.result.user .fname {
+	font-weight: 700;
+}
+
+.result.user .school, .result.user .gradyear {
+	font-family: 'Raleway';
+}
+
+.result.user .gradyear {
+	color: #aaa;
+}
+
+.coursename, .coursenum {
+	font-size: 22px;
+}
+
+.coursename {
+	font-weight: 700;
+}
+
+.coursenum {
+	color: #aaa;
+	font-family: 'Raleway';
+}
+
+.numtaking {
+	display: block;
+	font-family: 'Raleway';
+}

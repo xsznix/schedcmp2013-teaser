@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6, th {
 	font-weight: 300;
 }
 
-p, th, td, li, dd, dt {
+p, th, td, li, dd, dt, label, span {
 	font-family: 'Source Sans Pro';
 	font-weight: 300;
 }
@@ -60,15 +60,20 @@ input[type=text], input[type=email] {
     color:    #ddd;
 }
 
+input.hidden {
+	display: none;
+}
+
 /* button styling */
 
 .button {
 	display: inline-block;
-	padding: 6px 12px;
+	padding: 6px 16px;
 
 	font-family: 'Source Sans Pro';
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 300;
+	text-decoration: none;
 
 	cursor: pointer;
 }
@@ -101,7 +106,6 @@ input[type=text], input[type=email] {
 
 #header {
 	background: #fff;
-	height: 48px;
 	overflow: hidden;
 }
 
@@ -389,6 +393,7 @@ img.social_circle.active {
 #footer {
 	padding: 0;
 	overflow: hidden;
+	background: #eee;
 }
 
 #footer_nav {
@@ -397,20 +402,17 @@ img.social_circle.active {
 }
 
 #footer_nav a {
-	color: #bbb;
+	color: #666;
 	margin-bottom: 0;
 }
 
 #footer_nav a:hover {
-	background: #555;
+	background: #ddd;
 }
 
 /* responsiveness */
 
 @media screen and (max-width: 720px) {
-	#header {
-		height: 96px;
-	}
 	#navbar {
 		clear: both;
 	}

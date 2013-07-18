@@ -1,0 +1,45 @@
+.semester {
+	width: 100%;
+	max-width: 440px;
+	margin: 0 auto;
+	padding: 16px;
+	background: #eee;
+}
+
+.course {
+	margin: 8px 0;
+
+	font-size: 18px;
+	text-align: left !important;
+	list-style-position: inside;
+}
+
+.coursenum {
+	width: 50px;
+	margin-left: 12px;
+	border: 2px solid #aaa;
+	margin-right: 24px;
+
+	font-size: 18px;
+}
+
+.coursename {
+	display: inline-block;
+	overflow: hidden;
+
+	font-size: 18px;
+	text-align: left !important;
+}
+
+@media screen and (max-width: 800px) {
+	.col {
+		float: none !important;
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#courses_wrapper .layer_inner {
+		padding: 0;
+	}
+}
