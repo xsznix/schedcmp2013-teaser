@@ -54,11 +54,12 @@
 	-ms-transform: scale(1);
 	-o-transform: scale(1);
 	transform: scale(1);
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	transition: all 0.3s;
+
+	-webkit-transition: -webkit-transform 0.3s;
+	-moz-transition: -moz-transform 0.3s;
+	-ms-transition: -ms-transform 0.3s;
+	-o-transition: -o-transform 0.3s;
+	transition: transform 0.3s;
 }
 
 .choices_row label:hover > img, .choices_row input:checked + label > img {
@@ -71,7 +72,7 @@
 
 .choices_row label:hover > .caption, .choices_row input:checked + label > .caption {
 	bottom: 0;
-	
+
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
