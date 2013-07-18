@@ -31,7 +31,27 @@
 	font-size: 20px;
 }
 
-#courselist li {
+.twocol {
+	text-align: center;
+}
+
+.col {
+	max-width: 400px;
+	width: auto !important;
+	float: none !important;
+	display: inline-block;
+}
+
+.semester {
+	font-weight: 700;
+}
+
+.courselist {
+	list-style-position: inside;
+	font-size: 22px;
+}
+
+.courselist li {
 	margin-bottom: 8px;
 }
 
@@ -42,4 +62,14 @@
 
 .coursenum {
 	color: #aaa;
+}
+
+@media screen and (max-width: 640px) {
+	#avatar {
+		margin-bottom: 0;
+	}
+
+	#user_header .title {
+		margin-top: 8px;
+	}
 }
