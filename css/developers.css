@@ -2,12 +2,19 @@
 	display: block !important;
 	width: 120px;
 	height: 120px;
-	margin: 0 auto 12px auto;
+	margin: 0 auto;
 	text-align: center;
 	border-radius: 60px;
 }
 
-.dev_name {
-	font-size: 22px;
+.dev_role {
 	margin-bottom: -12px;
+	font-size: 18px;
+	font-style: italic;
+	color: #888;
+}
+
+.dev_name {
+	margin-bottom: -12px;
+	font-size: 22px;
 }
