@@ -41,6 +41,26 @@
 	max-width: none;
 }
 
+#schools {
+	padding-bottom: 84px;
+}
+
+#schools .right p {
+	margin-right: 16px;
+	text-align: right;
+}
+
+#schools .left p {
+	margin-left: 16px;
+	text-align: left;
+}
+
+#schools p {
+	margin: 0;
+	font-size: 18px;
+	line-height: 28px;
+}
+
 #devs {
 	max-width: 575px;
 	margin: 0 auto;
@@ -92,5 +112,14 @@
 	#intro_action {
 		display: block;
 		margin: 16px 0 0 0;
+	}
+
+	#schools .col + .col {
+		margin: 0;
+	}
+
+	#schools .left p, #schools .right p {
+		margin: 0;
+		text-align: center;
 	}
 }
