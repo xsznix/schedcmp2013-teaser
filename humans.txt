@@ -28,3 +28,5 @@ http://humanstxt.org
 
 		retina.js
 		http://retinajs.com/
+
+		Google Analytics
