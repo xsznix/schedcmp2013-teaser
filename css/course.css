@@ -1,0 +1,41 @@
+#course_header .title {
+	font-size: 48px;
+}
+
+#course_header .title span {
+	font-family: 'Raleway';
+}
+
+#course_header .subtitle {
+	font-size: 28px;
+	max-width: none;
+	margin-top: 4px;
+	margin-bottom: 12px;
+}
+
+.fname {
+	font-weight: 700;
+}
+
+.classmate {
+	display: inline-block;
+	width: 200px;
+	padding: 12px;
+	text-align: left !important;
+	overflow: hidden;
+	color: inherit;
+	text-decoration: none;
+}
+
+.classmate img {
+	float: left;
+	width: 48px;
+	height: 48px;
+	margin-right: 8px;
+}
+
+.classmate span {
+	display: inline-block;
+	font-size: 18px;
+	padding-top: 11px;
+}
